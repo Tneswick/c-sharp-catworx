@@ -13,9 +13,9 @@ namespace CatWorx.BadgeMaker
             employees.Add("billy");
 
             Console.WriteLine("My employees include "  );
-            for (int i = 0; i < employees[].Length; i++)
+            for (int i = 0; i < employees.Count; i++)
             {
-                
+                Console.WriteLine(employees[i]);
             }
         }
     }

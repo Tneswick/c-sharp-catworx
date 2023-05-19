@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xifat\\OneDrive\\Documents\\Coding\\C#-CC\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+      "projectUniqueName": "C:\\Users\\xifat\\Desktop\\projects\\CONTINUATION COURSES\\catworks-c-sharp\\c-sharp-catworx\\CatWorx.BadgeMaker.csproj",
       "projectName": "CatWorx.BadgeMaker",
-      "projectPath": "C:\\Users\\xifat\\OneDrive\\Documents\\Coding\\C#-CC\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+      "projectPath": "C:\\Users\\xifat\\Desktop\\projects\\CONTINUATION COURSES\\catworks-c-sharp\\c-sharp-catworx\\CatWorx.BadgeMaker.csproj",
       "packagesPath": "C:\\Users\\xifat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xifat\\OneDrive\\Documents\\Coding\\C#-CC\\CatWorx.BadgeMaker\\obj\\",
+      "outputPath": "C:\\Users\\xifat\\Desktop\\projects\\CONTINUATION COURSES\\catworks-c-sharp\\c-sharp-catworx\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xifat\\AppData\\Roaming\\NuGet\\NuGet.Config"
