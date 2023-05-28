@@ -34,12 +34,12 @@ namespace CatWorx.BadgeMaker
             return employees;
         }
 
-        static void Main(string[] args)
+        async static Task Main(string[] args)
         {
             List<Employee> employees = new List<Employee>();
             employees = GetEmployees();
             Util.MakeCSV(employees);
-            Util.MakeBadges(employees);
+            await Util.MakeBadges(employees);
         }
     }
 }

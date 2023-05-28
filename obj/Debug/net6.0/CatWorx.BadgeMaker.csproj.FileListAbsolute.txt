@@ -34,3 +34,9 @@ C:\Users\xifat\OneDrive\Documents\Coding\C#-CC\CatWorx.BadgeMaker\bin\Debug\net6
 C:\Users\xifat\OneDrive\Documents\Coding\C#-CC\CatWorx.BadgeMaker\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\xifat\OneDrive\Documents\Coding\C#-CC\CatWorx.BadgeMaker\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
 C:\Users\xifat\OneDrive\Documents\Coding\C#-CC\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.csproj.CopyComplete
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\xifat\Desktop\projects\CONTINUATION COURSES\catworks-c-sharp\c-sharp-catworx\obj\Debug\net6.0\CatWorx.BadgeMaker.csproj.CopyComplete
