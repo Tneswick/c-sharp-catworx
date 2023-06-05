@@ -3,43 +3,31 @@ using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
-    class Program
+  class Program
+  {
+    async static Task Main(string[] args)
     {
-        static List<Employee> GetEmployees()
+      List<Employee> employees = new List<Employee>();
+      while (true)
+      {
+        Console.WriteLine("Would you like to enter employee data? (y|n)");
+        string res1 = Console.ReadLine() ?? "";
+        if (res1 == "y" || res1 == "yes" || res1 == "Yes")
         {
-            List<Employee> employees = new List<Employee>();
-            while (true)
-            {
-                // Move the initial prompt inside the loop, so it repeats for each employee
-                Console.WriteLine("Enter first name (leave empty to exit): ");
-
-                // change input to firstName
-                string firstName = Console.ReadLine() ?? "";
-                if (firstName == "")
-                {
-                    break;
-                }
-
-                // add a Console.ReadLine() for each value
-                Console.Write("Enter last name: ");
-                string lastName = Console.ReadLine() ?? "";
-                Console.Write("Enter ID: ");
-                int id = Int32.Parse(Console.ReadLine() ?? "");
-                Console.Write("Enter Photo URL:");
-                string photoUrl = Console.ReadLine() ?? "";
-                Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
-                employees.Add(currentEmployee);
-            }
-
-            return employees;
+          employees = PeopleFetcher.GetEmployees();
+          Util.MakeCSV(employees);
+          await Util.MakeBadges(employees);
         }
 
-        async static Task Main(string[] args)
+        Console.WriteLine("Would you like to generate random user data? (y|n)");
+        string res2 = Console.ReadLine() ?? "";
+        if (res2 == "y" || res2 == "yes" || res2 == "Yes")
         {
-            List<Employee> employees = new List<Employee>();
-            employees = GetEmployees();
-            Util.MakeCSV(employees);
-            await Util.MakeBadges(employees);
+          employees = await PeopleFetcher.GetFromApi();
+          Util.MakeCSV(employees);
+          await Util.MakeBadges(employees);
         }
+      }
     }
+  }
 }
